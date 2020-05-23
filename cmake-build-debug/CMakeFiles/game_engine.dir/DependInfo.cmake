@@ -4,7 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/prog/game_engine/main.cpp" "D:/prog/game_engine/cmake-build-debug/CMakeFiles/game_engine.dir/main.cpp.obj"
+  "D:/prog/game_engine/src/graphics_engine/objects/model_core/model/model.cpp" "D:/prog/game_engine/cmake-build-debug/CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/model/model.cpp.obj"
+  "D:/prog/game_engine/src/graphics_engine/objects/model_core/triangle/triangle.cpp" "D:/prog/game_engine/cmake-build-debug/CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/triangle/triangle.cpp.obj"
+  "D:/prog/game_engine/src/graphics_engine/objects/model_core/vertex/vertex.cpp" "D:/prog/game_engine/cmake-build-debug/CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/vertex/vertex.cpp.obj"
+  "D:/prog/game_engine/src/graphics_engine/screen/screen.cpp" "D:/prog/game_engine/cmake-build-debug/CMakeFiles/game_engine.dir/src/graphics_engine/screen/screen.cpp.obj"
+  "D:/prog/game_engine/src/graphics_engine/utils/image_utils.cpp" "D:/prog/game_engine/cmake-build-debug/CMakeFiles/game_engine.dir/src/graphics_engine/utils/image_utils.cpp.obj"
+  "D:/prog/game_engine/src/main.cpp" "D:/prog/game_engine/cmake-build-debug/CMakeFiles/game_engine.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

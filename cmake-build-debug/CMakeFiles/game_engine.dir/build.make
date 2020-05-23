@@ -56,32 +56,107 @@ include CMakeFiles/game_engine.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/game_engine.dir/flags.make
 
-CMakeFiles/game_engine.dir/main.cpp.obj: CMakeFiles/game_engine.dir/flags.make
-CMakeFiles/game_engine.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\prog\game_engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game_engine.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game_engine.dir\main.cpp.obj -c D:\prog\game_engine\main.cpp
+CMakeFiles/game_engine.dir/src/graphics_engine/screen/screen.cpp.obj: CMakeFiles/game_engine.dir/flags.make
+CMakeFiles/game_engine.dir/src/graphics_engine/screen/screen.cpp.obj: ../src/graphics_engine/screen/screen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\prog\game_engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game_engine.dir/src/graphics_engine/screen/screen.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game_engine.dir\src\graphics_engine\screen\screen.cpp.obj -c D:\prog\game_engine\src\graphics_engine\screen\screen.cpp
 
-CMakeFiles/game_engine.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_engine.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\prog\game_engine\main.cpp > CMakeFiles\game_engine.dir\main.cpp.i
+CMakeFiles/game_engine.dir/src/graphics_engine/screen/screen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_engine.dir/src/graphics_engine/screen/screen.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\prog\game_engine\src\graphics_engine\screen\screen.cpp > CMakeFiles\game_engine.dir\src\graphics_engine\screen\screen.cpp.i
 
-CMakeFiles/game_engine.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_engine.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\prog\game_engine\main.cpp -o CMakeFiles\game_engine.dir\main.cpp.s
+CMakeFiles/game_engine.dir/src/graphics_engine/screen/screen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_engine.dir/src/graphics_engine/screen/screen.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\prog\game_engine\src\graphics_engine\screen\screen.cpp -o CMakeFiles\game_engine.dir\src\graphics_engine\screen\screen.cpp.s
+
+CMakeFiles/game_engine.dir/src/graphics_engine/utils/image_utils.cpp.obj: CMakeFiles/game_engine.dir/flags.make
+CMakeFiles/game_engine.dir/src/graphics_engine/utils/image_utils.cpp.obj: ../src/graphics_engine/utils/image_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\prog\game_engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game_engine.dir/src/graphics_engine/utils/image_utils.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game_engine.dir\src\graphics_engine\utils\image_utils.cpp.obj -c D:\prog\game_engine\src\graphics_engine\utils\image_utils.cpp
+
+CMakeFiles/game_engine.dir/src/graphics_engine/utils/image_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_engine.dir/src/graphics_engine/utils/image_utils.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\prog\game_engine\src\graphics_engine\utils\image_utils.cpp > CMakeFiles\game_engine.dir\src\graphics_engine\utils\image_utils.cpp.i
+
+CMakeFiles/game_engine.dir/src/graphics_engine/utils/image_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_engine.dir/src/graphics_engine/utils/image_utils.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\prog\game_engine\src\graphics_engine\utils\image_utils.cpp -o CMakeFiles\game_engine.dir\src\graphics_engine\utils\image_utils.cpp.s
+
+CMakeFiles/game_engine.dir/src/main.cpp.obj: CMakeFiles/game_engine.dir/flags.make
+CMakeFiles/game_engine.dir/src/main.cpp.obj: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\prog\game_engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game_engine.dir/src/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game_engine.dir\src\main.cpp.obj -c D:\prog\game_engine\src\main.cpp
+
+CMakeFiles/game_engine.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_engine.dir/src/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\prog\game_engine\src\main.cpp > CMakeFiles\game_engine.dir\src\main.cpp.i
+
+CMakeFiles/game_engine.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_engine.dir/src/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\prog\game_engine\src\main.cpp -o CMakeFiles\game_engine.dir\src\main.cpp.s
+
+CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/model/model.cpp.obj: CMakeFiles/game_engine.dir/flags.make
+CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/model/model.cpp.obj: ../src/graphics_engine/objects/model_core/model/model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\prog\game_engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/model/model.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game_engine.dir\src\graphics_engine\objects\model_core\model\model.cpp.obj -c D:\prog\game_engine\src\graphics_engine\objects\model_core\model\model.cpp
+
+CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/model/model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/model/model.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\prog\game_engine\src\graphics_engine\objects\model_core\model\model.cpp > CMakeFiles\game_engine.dir\src\graphics_engine\objects\model_core\model\model.cpp.i
+
+CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/model/model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/model/model.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\prog\game_engine\src\graphics_engine\objects\model_core\model\model.cpp -o CMakeFiles\game_engine.dir\src\graphics_engine\objects\model_core\model\model.cpp.s
+
+CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/vertex/vertex.cpp.obj: CMakeFiles/game_engine.dir/flags.make
+CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/vertex/vertex.cpp.obj: ../src/graphics_engine/objects/model_core/vertex/vertex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\prog\game_engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/vertex/vertex.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game_engine.dir\src\graphics_engine\objects\model_core\vertex\vertex.cpp.obj -c D:\prog\game_engine\src\graphics_engine\objects\model_core\vertex\vertex.cpp
+
+CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/vertex/vertex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/vertex/vertex.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\prog\game_engine\src\graphics_engine\objects\model_core\vertex\vertex.cpp > CMakeFiles\game_engine.dir\src\graphics_engine\objects\model_core\vertex\vertex.cpp.i
+
+CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/vertex/vertex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/vertex/vertex.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\prog\game_engine\src\graphics_engine\objects\model_core\vertex\vertex.cpp -o CMakeFiles\game_engine.dir\src\graphics_engine\objects\model_core\vertex\vertex.cpp.s
+
+CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/triangle/triangle.cpp.obj: CMakeFiles/game_engine.dir/flags.make
+CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/triangle/triangle.cpp.obj: ../src/graphics_engine/objects/model_core/triangle/triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\prog\game_engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/triangle/triangle.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game_engine.dir\src\graphics_engine\objects\model_core\triangle\triangle.cpp.obj -c D:\prog\game_engine\src\graphics_engine\objects\model_core\triangle\triangle.cpp
+
+CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/triangle/triangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/triangle/triangle.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\prog\game_engine\src\graphics_engine\objects\model_core\triangle\triangle.cpp > CMakeFiles\game_engine.dir\src\graphics_engine\objects\model_core\triangle\triangle.cpp.i
+
+CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/triangle/triangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/triangle/triangle.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\prog\game_engine\src\graphics_engine\objects\model_core\triangle\triangle.cpp -o CMakeFiles\game_engine.dir\src\graphics_engine\objects\model_core\triangle\triangle.cpp.s
 
 # Object files for target game_engine
 game_engine_OBJECTS = \
-"CMakeFiles/game_engine.dir/main.cpp.obj"
+"CMakeFiles/game_engine.dir/src/graphics_engine/screen/screen.cpp.obj" \
+"CMakeFiles/game_engine.dir/src/graphics_engine/utils/image_utils.cpp.obj" \
+"CMakeFiles/game_engine.dir/src/main.cpp.obj" \
+"CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/model/model.cpp.obj" \
+"CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/vertex/vertex.cpp.obj" \
+"CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/triangle/triangle.cpp.obj"
 
 # External object files for target game_engine
 game_engine_EXTERNAL_OBJECTS =
 
-game_engine.exe: CMakeFiles/game_engine.dir/main.cpp.obj
+game_engine.exe: CMakeFiles/game_engine.dir/src/graphics_engine/screen/screen.cpp.obj
+game_engine.exe: CMakeFiles/game_engine.dir/src/graphics_engine/utils/image_utils.cpp.obj
+game_engine.exe: CMakeFiles/game_engine.dir/src/main.cpp.obj
+game_engine.exe: CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/model/model.cpp.obj
+game_engine.exe: CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/vertex/vertex.cpp.obj
+game_engine.exe: CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/triangle/triangle.cpp.obj
 game_engine.exe: CMakeFiles/game_engine.dir/build.make
 game_engine.exe: CMakeFiles/game_engine.dir/linklibs.rsp
 game_engine.exe: CMakeFiles/game_engine.dir/objects1.rsp
 game_engine.exe: CMakeFiles/game_engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\prog\game_engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable game_engine.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\prog\game_engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable game_engine.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\game_engine.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

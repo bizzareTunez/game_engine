@@ -122,32 +122,167 @@ game_engine/fast:
 	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/build
 .PHONY : game_engine/fast
 
-main.obj: main.cpp.obj
+src/graphics_engine/objects/model_core/model/model.obj: src/graphics_engine/objects/model_core/model/model.cpp.obj
 
-.PHONY : main.obj
+.PHONY : src/graphics_engine/objects/model_core/model/model.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/graphics_engine/objects/model_core/model/model.cpp.obj:
+	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/model/model.cpp.obj
+.PHONY : src/graphics_engine/objects/model_core/model/model.cpp.obj
 
-main.i: main.cpp.i
+src/graphics_engine/objects/model_core/model/model.i: src/graphics_engine/objects/model_core/model/model.cpp.i
 
-.PHONY : main.i
+.PHONY : src/graphics_engine/objects/model_core/model/model.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/graphics_engine/objects/model_core/model/model.cpp.i:
+	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/model/model.cpp.i
+.PHONY : src/graphics_engine/objects/model_core/model/model.cpp.i
 
-main.s: main.cpp.s
+src/graphics_engine/objects/model_core/model/model.s: src/graphics_engine/objects/model_core/model/model.cpp.s
 
-.PHONY : main.s
+.PHONY : src/graphics_engine/objects/model_core/model/model.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/graphics_engine/objects/model_core/model/model.cpp.s:
+	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/model/model.cpp.s
+.PHONY : src/graphics_engine/objects/model_core/model/model.cpp.s
+
+src/graphics_engine/objects/model_core/triangle/triangle.obj: src/graphics_engine/objects/model_core/triangle/triangle.cpp.obj
+
+.PHONY : src/graphics_engine/objects/model_core/triangle/triangle.obj
+
+# target to build an object file
+src/graphics_engine/objects/model_core/triangle/triangle.cpp.obj:
+	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/triangle/triangle.cpp.obj
+.PHONY : src/graphics_engine/objects/model_core/triangle/triangle.cpp.obj
+
+src/graphics_engine/objects/model_core/triangle/triangle.i: src/graphics_engine/objects/model_core/triangle/triangle.cpp.i
+
+.PHONY : src/graphics_engine/objects/model_core/triangle/triangle.i
+
+# target to preprocess a source file
+src/graphics_engine/objects/model_core/triangle/triangle.cpp.i:
+	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/triangle/triangle.cpp.i
+.PHONY : src/graphics_engine/objects/model_core/triangle/triangle.cpp.i
+
+src/graphics_engine/objects/model_core/triangle/triangle.s: src/graphics_engine/objects/model_core/triangle/triangle.cpp.s
+
+.PHONY : src/graphics_engine/objects/model_core/triangle/triangle.s
+
+# target to generate assembly for a file
+src/graphics_engine/objects/model_core/triangle/triangle.cpp.s:
+	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/triangle/triangle.cpp.s
+.PHONY : src/graphics_engine/objects/model_core/triangle/triangle.cpp.s
+
+src/graphics_engine/objects/model_core/vertex/vertex.obj: src/graphics_engine/objects/model_core/vertex/vertex.cpp.obj
+
+.PHONY : src/graphics_engine/objects/model_core/vertex/vertex.obj
+
+# target to build an object file
+src/graphics_engine/objects/model_core/vertex/vertex.cpp.obj:
+	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/vertex/vertex.cpp.obj
+.PHONY : src/graphics_engine/objects/model_core/vertex/vertex.cpp.obj
+
+src/graphics_engine/objects/model_core/vertex/vertex.i: src/graphics_engine/objects/model_core/vertex/vertex.cpp.i
+
+.PHONY : src/graphics_engine/objects/model_core/vertex/vertex.i
+
+# target to preprocess a source file
+src/graphics_engine/objects/model_core/vertex/vertex.cpp.i:
+	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/vertex/vertex.cpp.i
+.PHONY : src/graphics_engine/objects/model_core/vertex/vertex.cpp.i
+
+src/graphics_engine/objects/model_core/vertex/vertex.s: src/graphics_engine/objects/model_core/vertex/vertex.cpp.s
+
+.PHONY : src/graphics_engine/objects/model_core/vertex/vertex.s
+
+# target to generate assembly for a file
+src/graphics_engine/objects/model_core/vertex/vertex.cpp.s:
+	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/src/graphics_engine/objects/model_core/vertex/vertex.cpp.s
+.PHONY : src/graphics_engine/objects/model_core/vertex/vertex.cpp.s
+
+src/graphics_engine/screen/screen.obj: src/graphics_engine/screen/screen.cpp.obj
+
+.PHONY : src/graphics_engine/screen/screen.obj
+
+# target to build an object file
+src/graphics_engine/screen/screen.cpp.obj:
+	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/src/graphics_engine/screen/screen.cpp.obj
+.PHONY : src/graphics_engine/screen/screen.cpp.obj
+
+src/graphics_engine/screen/screen.i: src/graphics_engine/screen/screen.cpp.i
+
+.PHONY : src/graphics_engine/screen/screen.i
+
+# target to preprocess a source file
+src/graphics_engine/screen/screen.cpp.i:
+	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/src/graphics_engine/screen/screen.cpp.i
+.PHONY : src/graphics_engine/screen/screen.cpp.i
+
+src/graphics_engine/screen/screen.s: src/graphics_engine/screen/screen.cpp.s
+
+.PHONY : src/graphics_engine/screen/screen.s
+
+# target to generate assembly for a file
+src/graphics_engine/screen/screen.cpp.s:
+	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/src/graphics_engine/screen/screen.cpp.s
+.PHONY : src/graphics_engine/screen/screen.cpp.s
+
+src/graphics_engine/utils/image_utils.obj: src/graphics_engine/utils/image_utils.cpp.obj
+
+.PHONY : src/graphics_engine/utils/image_utils.obj
+
+# target to build an object file
+src/graphics_engine/utils/image_utils.cpp.obj:
+	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/src/graphics_engine/utils/image_utils.cpp.obj
+.PHONY : src/graphics_engine/utils/image_utils.cpp.obj
+
+src/graphics_engine/utils/image_utils.i: src/graphics_engine/utils/image_utils.cpp.i
+
+.PHONY : src/graphics_engine/utils/image_utils.i
+
+# target to preprocess a source file
+src/graphics_engine/utils/image_utils.cpp.i:
+	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/src/graphics_engine/utils/image_utils.cpp.i
+.PHONY : src/graphics_engine/utils/image_utils.cpp.i
+
+src/graphics_engine/utils/image_utils.s: src/graphics_engine/utils/image_utils.cpp.s
+
+.PHONY : src/graphics_engine/utils/image_utils.s
+
+# target to generate assembly for a file
+src/graphics_engine/utils/image_utils.cpp.s:
+	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/src/graphics_engine/utils/image_utils.cpp.s
+.PHONY : src/graphics_engine/utils/image_utils.cpp.s
+
+src/main.obj: src/main.cpp.obj
+
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles\game_engine.dir\build.make CMakeFiles/game_engine.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +293,24 @@ help:
 	@echo ... game_engine
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/graphics_engine/objects/model_core/model/model.obj
+	@echo ... src/graphics_engine/objects/model_core/model/model.i
+	@echo ... src/graphics_engine/objects/model_core/model/model.s
+	@echo ... src/graphics_engine/objects/model_core/triangle/triangle.obj
+	@echo ... src/graphics_engine/objects/model_core/triangle/triangle.i
+	@echo ... src/graphics_engine/objects/model_core/triangle/triangle.s
+	@echo ... src/graphics_engine/objects/model_core/vertex/vertex.obj
+	@echo ... src/graphics_engine/objects/model_core/vertex/vertex.i
+	@echo ... src/graphics_engine/objects/model_core/vertex/vertex.s
+	@echo ... src/graphics_engine/screen/screen.obj
+	@echo ... src/graphics_engine/screen/screen.i
+	@echo ... src/graphics_engine/screen/screen.s
+	@echo ... src/graphics_engine/utils/image_utils.obj
+	@echo ... src/graphics_engine/utils/image_utils.i
+	@echo ... src/graphics_engine/utils/image_utils.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

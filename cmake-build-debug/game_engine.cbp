@@ -80,7 +80,40 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/prog/game_engine/main.cpp">
+		<Unit filename="D:/prog/game_engine/src/graphics_engine/constants/constants.h">
+			<Option target="game_engine"/>
+		</Unit>
+		<Unit filename="D:/prog/game_engine/src/graphics_engine/objects/model_core/model/model.cpp">
+			<Option target="game_engine"/>
+		</Unit>
+		<Unit filename="D:/prog/game_engine/src/graphics_engine/objects/model_core/model/model.h">
+			<Option target="game_engine"/>
+		</Unit>
+		<Unit filename="D:/prog/game_engine/src/graphics_engine/objects/model_core/triangle/triangle.cpp">
+			<Option target="game_engine"/>
+		</Unit>
+		<Unit filename="D:/prog/game_engine/src/graphics_engine/objects/model_core/triangle/triangle.h">
+			<Option target="game_engine"/>
+		</Unit>
+		<Unit filename="D:/prog/game_engine/src/graphics_engine/objects/model_core/vertex/vertex.cpp">
+			<Option target="game_engine"/>
+		</Unit>
+		<Unit filename="D:/prog/game_engine/src/graphics_engine/objects/model_core/vertex/vertex.h">
+			<Option target="game_engine"/>
+		</Unit>
+		<Unit filename="D:/prog/game_engine/src/graphics_engine/screen/screen.cpp">
+			<Option target="game_engine"/>
+		</Unit>
+		<Unit filename="D:/prog/game_engine/src/graphics_engine/screen/screen.h">
+			<Option target="game_engine"/>
+		</Unit>
+		<Unit filename="D:/prog/game_engine/src/graphics_engine/utils/image_utils.cpp">
+			<Option target="game_engine"/>
+		</Unit>
+		<Unit filename="D:/prog/game_engine/src/graphics_engine/utils/image_utils.h">
+			<Option target="game_engine"/>
+		</Unit>
+		<Unit filename="D:/prog/game_engine/src/main.cpp">
 			<Option target="game_engine"/>
 		</Unit>
 		<Unit filename="D:/prog/game_engine/CMakeLists.txt">
