@@ -18,7 +18,8 @@ typedef unsigned char uchar;
 class screen {
 public:
     screen() {
-        width = WINDOW_SIZE_X; height = WINDOW_SIZE_Y;
+        width = WINDOW_SIZE_X + 1;
+        height = WINDOW_SIZE_Y + 1;
         arr_size = 3 * width * height;
         arr = new uchar[arr_size];
         if (arr == nullptr) {

@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include <ctime>
-#pragma GCC optimize("Ofast")
+//#pragma GCC optimize("Ofast")
 #include "graphics_engine/screen/screen.h"
 #include "graphics_engine/utils/image_utils.h"
 

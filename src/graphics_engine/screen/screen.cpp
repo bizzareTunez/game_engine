@@ -18,11 +18,17 @@ void screen::write(const char *output_file) {
 }
 
 void screen::set_point(int x, int y, uchar R, uchar G, uchar B) {
-    int shift = ((WINDOW_SIZE_Y - y) * width + x) * 3;
+    int shift = (y * width + x) * 3;
 //    std::cout << "shift " << shift << " array size " << arr_size << std::endl;
-    if (arr == nullptr) {
-        std::cout << "arr is nullptr" << std::endl;
-    }
+//    if (y == 0) {
+//        std::cout << "Y == 0" << std::endl;
+//    }
+//    if (y == WINDOW_SIZE_Y) {
+//        std::cout << "Y==window size" << std::endl;
+//    }
+//    if (arr == nullptr) {
+//        std::cout << "arr is nullptr" << std::endl;
+//    }
     arr[shift] = R;
     arr[shift + 1] = G;
     arr[shift + 2] = B;

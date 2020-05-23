@@ -15,7 +15,6 @@ class image_utils {
 public:
     image_utils(screen *in_screen) {
         image = in_screen;
-        std::cout << "image copied\n";
     }
 
     void draw_line(int x1, int y1, int x2, int y2, uchar R, uchar G, uchar B);
